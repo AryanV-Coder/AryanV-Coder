@@ -60,7 +60,7 @@ This project is purely built on **Python** using the **Streamlit framework** and
 
 ### 📫 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/Aryan%20Varshney-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-varshney-392446310/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-varshney-392446310/)  
 
 ---
 
