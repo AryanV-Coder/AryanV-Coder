@@ -17,8 +17,9 @@
 
 ### 🧩 Featured Projects
 
-#### 🧠 [MoodGenie]
-> *AI-Powered Mood Journal*  
+#### 🧠 MoodGenie
+
+*AI-Powered Mood Journal*  
 🗣 Built with **Flutter + FastAPI + Gemini API**  
 📜 Understands user emotions, continues conversations, and ends sessions with motivational quotes or jokes  
 📂 Saves session mood summary and chat history locally  
@@ -26,7 +27,7 @@
 
 ---
 
-#### 💬 [AI Powered Commenter]
+#### 💬 AI Powered Commenter
 **Deployed Link:** [ai-powered-commenter.streamlit.app](https://ai-powered-commenter.streamlit.app/)
 
 This project is purely built on **Python** using the **Streamlit framework** and **Gemini API**.  
