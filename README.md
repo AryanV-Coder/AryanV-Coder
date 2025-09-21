@@ -65,6 +65,18 @@ This project is purely built on **Python** using the **Streamlit framework** and
 
 ---
 
+## 📊 GitHub Stats — Indian Tricolor Theme
+![](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=054187&text_color=0A0A0A&icon_color=054187&border_color=054187&hide_border=false)
+<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=054187&fire=FF9933&currStreakNum=138808&sideNums=138808&currStreakLabel=054187&sideLabels=054187&dates=0A0A0A&border=054187&stroke=054187&hide_border=false)
+<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=054187&text_color=0A0A0A&border_color=054187&hide_border=false)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=juicyfresh&no-frame=true&no-bg=true&margin-w=8)
+
+---
+
 <div align="center">
 
   <h3>💡 Empowering Ideas with Intelligence</h3>
