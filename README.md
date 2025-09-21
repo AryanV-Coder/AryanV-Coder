@@ -65,7 +65,7 @@ This project is purely built on **Python** using the **Streamlit framework** and
 
 ---
 
-## 📊 GitHub Stats — Indian Tricolor Theme
+## 📊 GitHub Stats
 
 <div align="center">
 
