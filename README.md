@@ -66,14 +66,27 @@ This project is purely built on **Python** using the **Streamlit framework** and
 ---
 
 ## 📊 GitHub Stats — Indian Tricolor Theme
-![](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=054187&text_color=0A0A0A&icon_color=054187&border_color=054187&hide_border=false)
-<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=054187&fire=FF9933&currStreakNum=138808&sideNums=138808&currStreakLabel=054187&sideLabels=054187&dates=0A0A0A&border=054187&stroke=054187&hide_border=false)
-<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=054187&text_color=0A0A0A&border_color=054187&hide_border=false)
+
+<div align="center">
+
+### 📈 Profile Statistics
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=138808&hide_border=false&custom_title=Aryan's%20GitHub%20Statistics)
+
+### 🔥 Contribution Streak
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=138808&sideLabels=138808&dates=000080&border=138808&stroke=000080&hide_border=false)
+
+### 💻 Most Used Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=138808&hide_border=false&langs_count=8)
+
+</div>
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=juicyfresh&no-frame=true&no-bg=true&margin-w=8)
+
+<div align="center">
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=custom&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Reviews,Issues,Followers,Stars,Repositories&theme_config={"bg_color":"FF9933,FFFFFF,138808","title_color":"000080","text_color":"000080","icon_color":"FF9933","border_color":"138808"})
+
+</div>
 
 ---
 
