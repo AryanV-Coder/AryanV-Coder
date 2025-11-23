@@ -3,6 +3,12 @@
 <h1 align="center">Hi 👋, I'm Aryan Varshney</h1>
 <h3 align="center">🚀 AI Tools Creator | FastAPI & Flutter Dev | B.Tech CSE @ JIIT | 🇮🇳</h3>
 
+<p align="center">
+  <a href="https://aryan-varshney.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Website-blue?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Website">
+  </a>
+</p>
+
 ---
 
 ### 💡 About Me
