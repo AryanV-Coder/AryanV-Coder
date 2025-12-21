@@ -1,7 +1,7 @@
 <!-- Aryan Varshney GitHub Profile README -->
 
 <h1 align="center">Hi 👋, I'm Aryan Varshney</h1>
-<h3 align="center">🚀 AI Tools Creator | Django & FastAPI & Flutter Dev | B.Tech CSE @ JIIT | 🇮🇳</h3>
+<h3 align="center">🚀 AI Tools Creator | AI/ML Dev | Django, FastAPI & Flutter Dev | B.Tech CSE @ JIIT | 🇮🇳</h3>
 
 <p align="center">
   <a href="https://aryan-varshney.vercel.app/" target="_blank">
