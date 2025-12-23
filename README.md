@@ -16,30 +16,43 @@
 - 🎓 Computer Science student at **JIIT Noida** (2024–28)
 - 💻 I love building intelligent systems that **interact, automate, and improve lives**
 - 🔬 Exploring **AI agents, automation, FastAPI, Flutter**, and **AI APIs**
-- 🇮🇳 Mission-driven to use tech for **India’s advancement in defense and wellness**
+- 🇮🇳 Mission-driven to use tech for **India's advancement in defense and wellness**
 - 🧪 Constantly experimenting with **AI, ML, automation, and hardware integration**
 
 ---
 
 ### 🧩 Featured Projects
 
-#### 🧠 MoodGenie
+#### 🕵️ [Spy AI](https://github.com/AryanV-Coder/Spy-AI)
 
-*AI-Powered Mood Journal*  
-🗣 Built with **Flutter + FastAPI + Gemini API**  
-📜 Understands user emotions, continues conversations, and ends sessions with motivational quotes or jokes  
-📂 Saves session mood summary and chat history locally  
-🪄 Personalized mental wellness companion
+*Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
+
+**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing meetings in real time.
+
+- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated an **LLM-driven chatbot** to surface summaries, exact quotes, timestamps and context on demand across past conversations.
+- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and avoid being misled.
 
 ---
 
-#### 💬 AI Powered Commenter
-**Deployed Link:** [ai-powered-commenter.streamlit.app](https://ai-powered-commenter.streamlit.app/)
+#### 📞 [AI Calling](https://github.com/AryanV-Coder/AI-Calling)
 
-This project is purely built on **Python** using the **Streamlit framework** and **Gemini API**.  
-🧠 Just select a mood, upload or click your photo — and get an AI-powered comment!  
-😄 *Don’t take the comment seriously — it’s all AI fun!*
+*Flask, Html, Twilio, Gemini*
 
+**AI Calling**, a full-stack voice-first application with an **HTML** frontend and **Flask** backend that enables natural, real-time phone conversations with an **AI** assistant.
+
+- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over a call.
+- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling, scalable backend services, and a hands-free UX for time-critical alerts.
+
+---
+
+#### 🍽️ [Flavor Match](https://github.com/AryanV-Coder/Flavor-Match) ([Live Demo](https://flavor-match.vercel.app/))
+
+*FastAPI, Gemini, Html, CSS, JavaScript*
+
+**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel** for interactive testing.
+
+- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs to reliably capture individual preferences for analytics.
+- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions from historical activity and health status.
 
 ---
 
@@ -76,13 +89,13 @@ This project is purely built on **Python** using the **Streamlit framework** and
 <div align="center">
 
 ### 📈 Profile Statistics
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=138808&hide_border=false&custom_title=Aryan's%20GitHub%20Statistics)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=000000)
 
 ### 🔥 Contribution Streak
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=138808&sideLabels=138808&dates=000080&border=138808&stroke=000080&hide_border=false)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000000)
 
 ### 💻 Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=138808&hide_border=false&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000000)
 
 </div>
 
@@ -90,7 +103,7 @@ This project is purely built on **Python** using the **Streamlit framework** and
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=custom&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Reviews,Issues,Followers,Stars,Repositories&theme_config={"bg_color":"FF9933,FFFFFF,138808","title_color":"000080","text_color":"000080","icon_color":"FF9933","border_color":"138808"})
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=custom&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues,Experience)
 
 </div>
 
