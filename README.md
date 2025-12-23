@@ -23,7 +23,7 @@
 
 ### 🧩 Featured Projects
 
-#### 🕵️ [Spy AI](https://github.com/AryanV-Coder/Spy-AI)
+#### 🕵️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
@@ -34,7 +34,7 @@
 
 ---
 
-#### 📞 [AI Calling](https://github.com/AryanV-Coder/AI-Calling)
+#### 📞 [AI Calling](https://github.com/AryanV-Coder/AICalling)
 
 *Flask, Html, Twilio, Gemini*
 
@@ -45,7 +45,7 @@
 
 ---
 
-#### 🍽️ [Flavor Match](https://github.com/AryanV-Coder/Flavor-Match) ([Live Demo](https://flavor-match.vercel.app/))
+#### 🍽️ [Flavor Match](https://github.com/AryanV-Coder/FlavorMatch) ([Live Demo](https://flavor-match-aat.vercel.app/))
 
 *FastAPI, Gemini, Html, CSS, JavaScript*
 
