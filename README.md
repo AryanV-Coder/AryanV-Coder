@@ -27,10 +27,10 @@
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
-**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing meetings in real time.
+**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing conversations in a **PostgreSQL** database.
 
-- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated an **LLM-driven chatbot** to surface summaries, exact quotes, timestamps and context on demand across past conversations.
-- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and avoid being misled.
+- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated an **LLM-driven chatbot** to surface summaries, Q&A, and keyword-based query results across all past recordings.
+- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and revisit past conversations on demand.
 
 ---
 
@@ -40,8 +40,8 @@
 
 **AI Calling**, a full-stack voice-first application with an **HTML** frontend and **Flask** backend that enables natural, real-time phone conversations with an **AI** assistant.
 
-- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over a call.
-- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling, scalable backend services, and a hands-free UX for time-critical alerts.
+- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over standard phone lines.
+- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling, scalable backend services, and a hands-free conversational UX for on-the-go access.
 
 ---
 
@@ -49,31 +49,31 @@
 
 *FastAPI, Gemini, Html, CSS, JavaScript*
 
-**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel** for interactive testing.
+**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel** that intelligently suggests meals everyone will enjoy.
 
-- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs to reliably capture individual preferences for analytics.
-- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions from historical activity and health status.
+- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs and structured preferences to ensure data integrity and efficient query performance.
+- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions aligned with household tastes and dietary restrictions.
 
 ---
 
 ### 🛠️ Tech Stack
 
 **Languages**  
-![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white)  
+![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=openjdk&logoColor=white)  
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)  
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)  
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 **Frameworks & Tools**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)  
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)  
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)  
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **AI & APIs**  
-![Google Gemini](https://img.shields.io/badge/Gemini-000000?style=flat-square&logo=google)
+![Google Gemini](https://img.shields.io/badge/Gemini-000000?style=flat-square&logo=google)  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai)
 
 ---
@@ -89,21 +89,37 @@
 <div align="center">
 
 ### 📈 Profile Statistics
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=FF9933&border_color=000000)
 
-### 🔥 Contribution Streak
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AryanV-Coder&background=30,FF9933,FFFFFF,138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000000)
+<a href="https://github.com/AryanV-Coder">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github&hide_border=true" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/AryanV-Coder">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&hide_border=true&langs_count=8" alt="Top Languages" />
+</a>
 
-### 💻 Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000000)
+### 🔥 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080" />
+</picture>
+
+### 📅 Contribution Graph
+
+[![Aryan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=true&custom_title=Contribution%20Graph)](https://github.com/AryanV-Coder)
 
 </div>
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=custom&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues,Experience)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=flat&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=flat&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues">
+  <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=flat&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues" />
+</picture>
 
 </div>
 
