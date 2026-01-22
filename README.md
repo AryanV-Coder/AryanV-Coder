@@ -63,50 +63,47 @@
 ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=openjdk&logoColor=white)  
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)  
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)  
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)  
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 **Frameworks & Tools**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)  
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)  
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **AI & APIs**  
 ![Google Gemini](https://img.shields.io/badge/Gemini-000000?style=flat-square&logo=google)  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai)  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai)
 
 ---
 
 ### 📫 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-varshney-392446310/)  
-  
+
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-### 📈 Profile Statistics
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github&hide_border=false">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github&hide_border=false">
-  <img alt="GitHub Stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github&hide_border=false" />
-</picture>
+<a href="https://github.com/AryanV-Coder">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/AryanV-Coder">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&langs_count=8" alt="Top Languages" />
+</a>
+
+</div>
+
+<div align="center">
 
 ### 🔥 Contribution Streak
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080" />
-</picture>
-
-### 💻 Most Used Languages
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&hide_border=false&langs_count=8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&hide_border=false&langs_count=8">
-  <img alt="Top Languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&hide_border=false&langs_count=8" />
 </picture>
 
 ### 📅 Contribution Activity
