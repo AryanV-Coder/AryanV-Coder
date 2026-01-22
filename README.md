@@ -59,21 +59,21 @@
 ### 🛠️ Tech Stack
 
 **Languages**  
-![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=openjdk&logoColor=white)  
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)  
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-blue?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 **Frameworks & Tools**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)  
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)  
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)  
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **AI & APIs**  
-![Google Gemini](https://img.shields.io/badge/Gemini-000000?style=flat-square&logo=google)  
+![Google Gemini](https://img.shields.io/badge/Gemini-000000?style=flat-square&logo=google)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai)
 
 ---
