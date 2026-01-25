@@ -11,6 +11,8 @@
 
 ---
 
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
 ### 💡 About Me
 
 - 🎓 Computer Science student at **JIIT Noida** (2024–28)
@@ -116,14 +118,6 @@
 
 </div>
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=AryanV-Coder&theme=custom&no-frame=false&no-bg=false&margin-w=4&margin-h=4&column=4&title=MultiLanguage,Commits,PullRequest,Repositories,Stars,Followers,Issues)
-
-</div>
-
 ---
 
 <div align="center">
@@ -139,4 +133,6 @@
 
 ---
 
-> 🧠 *"Code for the Nation. Code for the Future."* 🇮🇳
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=fff&animation=twinkling" width="100%"/>
+</div>
