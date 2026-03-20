@@ -25,6 +25,17 @@
 
 ### 🧩 Featured Projects
 
+#### 🌬️ [Vayu — Interactive Face Recognition Bot](https://github.com/AryanV-Coder/Vayu-InteractiveFaceRecognitionBot)
+
+*Python, OpenCV, DeepFace (Facenet512), FAISS, SQLite, Silero VAD, Groq LLaMA, Sarvam STT/TTS*
+
+**Vayu**, an interactive face recognition bot that **recognizes faces** via FAISS embeddings and runs a **personalized, streaming voice conversation** pipeline (STT → LLM → TTS).
+
+- Built a live multi-threaded pipeline with VAD-based listening, personalized prompting for known identities, and ultra-low-latency streaming audio playback.
+- Implemented a full face database workflow (embedding extraction → FAISS index → SQLite metadata) with similarity-threshold based recognition + “Unknown” handling.
+
+---
+
 #### 🕵️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
