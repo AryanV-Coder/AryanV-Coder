@@ -31,8 +31,9 @@
 
 **Vayu**, an interactive face recognition bot that **recognizes faces** via FAISS embeddings and runs a **personalized, streaming voice conversation** pipeline (STT → LLM → TTS).
 
-- Built a live multi-threaded pipeline with VAD-based listening, personalized prompting for known identities, and ultra-low-latency streaming audio playback.
-- Implemented a full face database workflow (embedding extraction → FAISS index → SQLite metadata) with similarity-threshold based recognition + “Unknown” handling.
+- Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalised spoken responses using a conversational pipeline.
+- Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within ~0.4 seconds of the first audio chunk arriving.
+- Engineered concurrent execution using Python's `ProcessPoolExecutor` to run face recognition in an isolated process alongside live camera capture (OpenCV) and a Silero VAD audio thread, ensuring smooth, non-blocking operation.
 
 ---
 
