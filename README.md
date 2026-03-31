@@ -119,9 +119,9 @@
 
 ### 🔥 Contribution Streak
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://nirzak-streak-stats.vercel.app?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
-  <source media="(prefers-color-scheme: light)" srcset="https://nirzak-streak-stats.vercel.app?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
-  <img alt="GitHub Streak" src="https://nirzak-streak-stats.vercel.app?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080" />
 </picture>
 
 ### 📅 Contribution Activity
