@@ -31,8 +31,8 @@
 
 **Vayu**, an interactive face recognition bot that **recognizes faces** via FAISS embeddings and runs a **personalized, streaming voice conversation** pipeline (STT → LLM → TTS).
 
-- Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalised spoken responses using a conversational pipeline.
-- Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within ~0.4 seconds of the first audio chunk arriving.
+- Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalized spoken responses through a conversational pipeline, with average face recognition latency of **10ms per frame**.
+- Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within **~0.4 seconds** of first audio chunk arriving.
 - Engineered concurrent execution using Python's `ProcessPoolExecutor` to run face recognition in an isolated process alongside live camera capture (OpenCV) and a Silero VAD audio thread, ensuring smooth, non-blocking operation.
 
 ---
@@ -41,10 +41,10 @@
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
-**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing conversations in a **PostgreSQL** database.
+**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing meetings in real time.
 
-- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated an **LLM-driven chatbot** to surface summaries, Q&A, and keyword-based query results across all past recordings.
-- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and revisit past conversations on demand.
+- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated a **Gemini 2.5 Flash-powered** chatbot to surface summaries, exact quotes, timestamps and context on demand across past conversations.
+- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and track decisions.
 
 ---
 
@@ -54,8 +54,8 @@
 
 **AI Calling**, a full-stack voice-first application with an **HTML** frontend and **Flask** backend that enables natural, real-time phone conversations with an **AI** assistant.
 
-- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over standard phone lines.
-- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling, scalable backend services, and a hands-free conversational UX for on-the-go access.
+- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over phone calls.
+- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling and scalable backend services.
 
 ---
 
@@ -63,10 +63,32 @@
 
 *FastAPI, Gemini, Html, CSS, JavaScript*
 
-**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel** that intelligently suggests meals everyone will enjoy.
+**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel**.
 
-- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs and structured preferences to ensure data integrity and efficient query performance.
-- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions aligned with household tastes and dietary restrictions.
+- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs.
+- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions.
+
+---
+
+#### 📈 Stock Market Voice
+
+*Python, Sarvam AI, Groq, Twilio, Silero VAD*
+
+**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversational interaction.
+
+- Architected an end-to-end voice pipeline (Speech-to-Text → LLaMA 3.3-70B → Text-to-Speech) integrated with **Silero VAD** for speech detection, enabling **1–2s response latency** from speech input to spoken reply over calls.
+- Leveraged Twilio for scalable call automation and broker APIs for dynamic retrieval of client-specific stock data, supporting multi-user calling and seamless callback-based query handling.
+
+---
+
+#### 😴 Sleep Debt Predictor (Live Demo)
+
+*Python, FastAPI, Scikit-learn, Linear Regression*
+
+**Sleep Debt Predictor**, a web-based ML system that estimates user sleep debt by analyzing facial fatigue indicators (eye redness, dark circles, yawn frequency) captured via a real-time browser video input.
+
+- Trained a Scikit-learn Linear Regression model on a self-collected dataset, achieving **R² 0.87**, **MAE 0.80 hours**, and **RMSE 1.02** on the test split.
+- Built an end-to-end pipeline integrating a FastAPI backend with Google Gemini API for feature extraction, and implemented Web Speech API for AI-generated personalized voice feedback.
 
 ---
 
@@ -106,11 +128,11 @@
 <div align="center">
 
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&icon_color=000080&border_color=000080&rank_icon=github" alt="GitHub Stats" />
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808&title_color=000000&text_color=000000" />
 </a>
 <br></br>
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&bg_color=30,FF9933,FFFFFF,138808&title_color=000080&text_color=000080&border_color=000080&langs_count=8" alt="Top Languages" />
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808&title_color=000000&text_color=000000" />
 </a>
 
 </div>
@@ -119,16 +141,16 @@
 
 ### 🔥 Contribution Streak
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&ring=000080&fire=FF9933&currStreakNum=000080&sideNums=000080&currStreakLabel=000080&sideLabels=000080&dates=000080&border=000080" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808" />
 </picture>
 
 ### 📅 Contribution Activity
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney's%20Contribution%20Activity%20Graph">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney's%20Contribution%20Activity%20Graph">
-  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney's%20Contribution%20Activity%20Graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney%27s%20Contribution%20Graph" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney%27s%20Contribution%20Graph" />
+  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Aryan%20Varshney%27s%20Contribution%20Graph" />
 </picture>
 
 </div>
@@ -149,5 +171,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=fff&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=ffffff" />
 </div>
