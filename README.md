@@ -37,6 +37,28 @@
 
 ---
 
+#### 📈 Stock Market Voice
+
+*Python, Sarvam AI, Groq, Twilio, Silero VAD*
+
+**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversational interaction.
+
+- Architected an end-to-end voice pipeline (Speech-to-Text → LLaMA 3.3-70B → Text-to-Speech) integrated with **Silero VAD** for speech detection, enabling **1–2s response latency** from speech input to spoken reply over calls.
+- Leveraged Twilio for scalable call automation and broker APIs for dynamic retrieval of client-specific stock data, supporting multi-user calling and seamless callback-based query handling.
+
+---
+
+#### 😴 [Sleep Debt Predictor](https://github.com/AryanV-Coder/SleepDebtPredictor) ([Live Demo](https://sleep-debt-predictor.vercel.app/))
+
+*Python, FastAPI, Scikit-learn, Linear Regression*
+
+**Sleep Debt Predictor**, a web-based ML system that estimates user sleep debt by analyzing facial fatigue indicators (eye redness, dark circles, yawn frequency) captured via a real-time browser video input.
+
+- Trained a Scikit-learn Linear Regression model on a self-collected dataset, achieving **R² 0.87**, **MAE 0.80 hours**, and **RMSE 1.02** on the test split.
+- Built an end-to-end pipeline integrating a FastAPI backend with Google Gemini API for feature extraction, and implemented Web Speech API for AI-generated personalized voice feedback.
+
+---
+
 #### 🕵️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
@@ -67,28 +89,6 @@
 
 - Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs.
 - Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions.
-
----
-
-#### 📈 Stock Market Voice
-
-*Python, Sarvam AI, Groq, Twilio, Silero VAD*
-
-**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversational interaction.
-
-- Architected an end-to-end voice pipeline (Speech-to-Text → LLaMA 3.3-70B → Text-to-Speech) integrated with **Silero VAD** for speech detection, enabling **1–2s response latency** from speech input to spoken reply over calls.
-- Leveraged Twilio for scalable call automation and broker APIs for dynamic retrieval of client-specific stock data, supporting multi-user calling and seamless callback-based query handling.
-
----
-
-#### 😴 [Sleep Debt Predictor](https://github.com/AryanV-Coder/SleepDebtPredictor) ([Live Demo](https://sleep-debt-predictor.vercel.app/))
-
-*Python, FastAPI, Scikit-learn, Linear Regression*
-
-**Sleep Debt Predictor**, a web-based ML system that estimates user sleep debt by analyzing facial fatigue indicators (eye redness, dark circles, yawn frequency) captured via a real-time browser video input.
-
-- Trained a Scikit-learn Linear Regression model on a self-collected dataset, achieving **R² 0.87**, **MAE 0.80 hours**, and **RMSE 1.02** on the test split.
-- Built an end-to-end pipeline integrating a FastAPI backend with Google Gemini API for feature extraction, and implemented Web Speech API for AI-generated personalized voice feedback.
 
 ---
 
