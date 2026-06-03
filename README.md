@@ -81,7 +81,7 @@
 
 ---
 
-#### 😴 Sleep Debt Predictor (Live Demo)
+#### 😴 [Sleep Debt Predictor](https://github.com/AryanV-Coder/SleepDebtPredictor) ([Live Demo](https://sleep-debt-predictor.vercel.app/))
 
 *Python, FastAPI, Scikit-learn, Linear Regression*
 
