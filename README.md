@@ -48,11 +48,11 @@
 
 ---
 
-#### 📝 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 🔥 [Customer Recovery Automation](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 
 *n8n, Twilio, Sarvam AI, Gemini, Python*
 
-**Customer Recovery Automation Tool**, an AI-powered customer recovery workflow that transforms vague negative reviews into actionable business insights through intelligent voice conversations.
+**Customer Recovery Automation**, an AI-powered customer recovery workflow that transforms vague negative reviews into actionable business insights through intelligent voice conversations.
 
 - Built an intelligent review analysis pipeline that detects negative and unclear customer feedback, then automatically triggers personalized AI voice calls to gather detailed feedback through natural, human-like conversations
 - Integrated a multi-stack voice system using **Twilio for calling**, **Sarvam AI for STT & TTS**, and **Gemini AI for review analysis**, orchestrated seamlessly through **n8n workflows**
@@ -71,7 +71,7 @@
 
 ---
 
-#### 🕵🏻‍♂️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
+#### 🕵️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
@@ -140,11 +140,11 @@
 <div align="center">
 
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808" alt="GitHub Stats">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808&text_color=000000" alt="GitHub Stats">
 </a>
 <br></br>
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808" alt="Top Languages">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&bg_color=DEG,FF9933,FFFFFF,138808&text_color=000000" alt="Top Languages">
 </a>
 
 </div>
@@ -153,16 +153,16 @@
 
 ### 🔥 Contribution Streak
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&stroke=000000">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&stroke=000000">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&background=30%2CFF9933%2CFFFFFF%2C138808&stroke=000000">
 </picture>
 
 ### 📅 Contribution Activity
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
-  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000000&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000000&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000000&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
 </picture>
 
 </div>
@@ -183,5 +183,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=ffffff">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=000000">
 </div>
