@@ -48,7 +48,7 @@
 
 ---
 
-#### 🔥 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 📝 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 
 *n8n, Twilio, Sarvam AI, Gemini, Python*
 
@@ -71,7 +71,7 @@
 
 ---
 
-#### 🕵️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
+#### 🕵🏻‍♂️ [Spy AI](https://github.com/AryanV-Coder/SpyAI)
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
