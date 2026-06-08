@@ -48,11 +48,11 @@
 
 ---
 
-#### 🔥 [Customer Recovery Automation](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 🔥 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 
 *n8n, Twilio, Sarvam AI, Gemini, Python*
 
-**Customer Recovery Automation**, an AI-powered customer recovery workflow that transforms vague negative reviews into actionable business insights through intelligent voice conversations.
+**Customer Recovery Automation Tool**, an AI-powered customer recovery workflow that transforms vague negative reviews into actionable business insights through intelligent voice conversations.
 
 - Built an intelligent review analysis pipeline that detects negative and unclear customer feedback, then automatically triggers personalized AI voice calls to gather detailed feedback through natural, human-like conversations
 - Integrated a multi-stack voice system using **Twilio for calling**, **Sarvam AI for STT & TTS**, and **Gemini AI for review analysis**, orchestrated seamlessly through **n8n workflows**
