@@ -60,6 +60,19 @@
 
 ---
 
+#### 🚨 [Project Drishti — SwachhBharat](https://github.com/AryanV-Coder/ProjectDrishti-SwachhBharat)
+
+*Python, YOLOv8, DeepFace (Facenet512), FAISS, MediaPipe, SQLite, SMTP, SciPy*
+
+**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
+
+- Engineered a **temporal state machine** that tracks person-garbage relationships over time (UNTRACKED → ATTACHED → DETACHING → MONITORING → LITTERING_CONFIRMED) to accurately infer littering behavior and reduce false positives
+- Integrated **YOLOv8 for real-time multi-object detection** (humans, garbage, dustbins), **custom centroid-based tracker** for temporal tracking, and **MediaPipe + DeepFace** for face isolation and identity matching
+- Built a high-speed facial recognition pipeline combining **FAISS vector indexing** (Facenet512 embeddings) with **SQLite lookups** to match violators against registered identities, enabling instant penalty dispatch
+- Implemented **automated e-challan generation** via SMTP, complete with violation evidence (timestamp, image, violator details, Rs. 500 fine notice) supporting **Swachh Bharat (Clean India)** initiative
+
+---
+
 #### 😴 [Sleep Debt Predictor](https://github.com/AryanV-Coder/SleepDebtPredictor) ([Live Demo](https://sleep-debt-predictor.vercel.app/))
 
 *Python, FastAPI, Scikit-learn, Linear Regression*
