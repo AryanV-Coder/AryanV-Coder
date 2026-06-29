@@ -60,7 +60,7 @@
 
 ---
 
-#### 🚨 [Project Drishti — SwachhBharat](https://github.com/AryanV-Coder/ProjectDrishti-SwachhBharat)
+#### 🚨 [Project Drishti — SwachhBharat](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-computervision-yolo-ugcPost-7476698512487817216-m1Ck/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 
 *Python, YOLOv8, DeepFace (Facenet512), FAISS, MediaPipe, SQLite, SMTP, SciPy*
 
