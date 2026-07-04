@@ -38,7 +38,7 @@
 
 ---
 
-#### 🩻 [ChestXRay Diagnosis Tool]
+#### 🩻 ChestXRay Diagnosis Tool
 *Python, PyTorch, DenseNet-121, Grad-CAM, FastAPI, FAISS, Groq Api*
 
 **Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
