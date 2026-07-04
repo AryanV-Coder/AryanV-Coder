@@ -25,6 +25,30 @@
 
 ### 🧩 Featured Projects
 
+#### 🚨 [Project Drishti — SwachhBharat](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-computervision-yolo-ugcPost-7476698512487817216-m1Ck/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+
+*Python, YOLOv8, DeepFace (Facenet512), FAISS, MediaPipe, SQLite, SMTP, SciPy*
+
+**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
+
+- Engineered a **temporal state machine** that tracks person-garbage relationships over time (UNTRACKED → ATTACHED → DETACHING → MONITORING → LITTERING_CONFIRMED) to accurately infer littering behavior and reduce false positives
+- Integrated **YOLOv8 for real-time multi-object detection** (humans, garbage, dustbins), **custom centroid-based tracker** for temporal tracking, and **MediaPipe + DeepFace** for face isolation and identity matching
+- Built a high-speed facial recognition pipeline combining **FAISS vector indexing** (Facenet512 embeddings) with **SQLite lookups** to match violators against registered identities, enabling instant penalty dispatch
+- Implemented **automated e-challan generation** via SMTP, complete with violation evidence (timestamp, image, violator details, Rs. 500 fine notice) supporting **Swachh Bharat (Clean India)** initiative
+
+---
+
+#### 🩻 [ChestXRay Diagnosis Tool]
+*Python, PyTorch, DenseNet-121, Grad-CAM, FastAPI, FAISS, Groq Api*
+
+**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
+
+- Built a **multi-stage AI diagnostic pipeline** for chest X-rays using a fine-tuned DenseNet-121 backbone trained on **57K+ NIH CXR-14 images**, achieving a mean **AUC-ROC of 0.7735** across Cardiomegaly, Pleural Effusion, and Pneumothorax with patient-aware splits to eliminate data leakage.
+- Engineered an explainability layer via **Grad-CAM** exposed through a **FastAPI** endpoint that returns the highest-probability disease prediction alongside a Base64-encoded heatmap overlay, highlighting model attention regions on the denseblock4 convolutional layer.
+- Designed a **RAG-augmented report generation** module using **FAISS** as a local vector store with sentence-transformers embeddings and the **Groq API** as the LLM, grounding AI-drafted structured radiology reports in retrieved medical-guideline context for clinical accuracy.
+
+---
+
 #### 🌬️ [Vayu — Interactive Face Recognition Bot](https://github.com/AryanV-Coder/Vayu-InteractiveFaceRecognitionBot)
 
 *Python, OpenCV, DeepFace (Facenet512), FAISS, SQLite, Silero VAD, Groq LLaMA, Sarvam STT/TTS*
@@ -57,19 +81,6 @@
 - Built an intelligent review analysis pipeline that detects negative and unclear customer feedback, then automatically triggers personalized AI voice calls to gather detailed feedback through natural, human-like conversations
 - Integrated a multi-stack voice system using **Twilio for calling**, **Sarvam AI for STT & TTS**, and **Gemini AI for review analysis**, orchestrated seamlessly through **n8n workflows**
 - Engineered an AI-driven escalation logic system where the workflow autonomously decides when to escalate for human intervention, transforming passive feedback analysis into proactive customer recovery actions
-
----
-
-#### 🚨 [Project Drishti — SwachhBharat](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-computervision-yolo-ugcPost-7476698512487817216-m1Ck/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
-
-*Python, YOLOv8, DeepFace (Facenet512), FAISS, MediaPipe, SQLite, SMTP, SciPy*
-
-**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
-
-- Engineered a **temporal state machine** that tracks person-garbage relationships over time (UNTRACKED → ATTACHED → DETACHING → MONITORING → LITTERING_CONFIRMED) to accurately infer littering behavior and reduce false positives
-- Integrated **YOLOv8 for real-time multi-object detection** (humans, garbage, dustbins), **custom centroid-based tracker** for temporal tracking, and **MediaPipe + DeepFace** for face isolation and identity matching
-- Built a high-speed facial recognition pipeline combining **FAISS vector indexing** (Facenet512 embeddings) with **SQLite lookups** to match violators against registered identities, enabling instant penalty dispatch
-- Implemented **automated e-challan generation** via SMTP, complete with violation evidence (timestamp, image, violator details, Rs. 500 fine notice) supporting **Swachh Bharat (Clean India)** initiative
 
 ---
 
