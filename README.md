@@ -38,10 +38,10 @@
 
 ---
 
-#### 🩻 ChestXRay Diagnosis Tool
+#### 👨🏻‍⚕️ [Dr. Chakshu (Eyes) - Chest X-Ray Diagnosis Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_artificialintelligence-healthcareai-medicalai-ugcPost-7480538351691931648-mmCy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 *Python, PyTorch, DenseNet-121, Grad-CAM, FastAPI, FAISS, Groq Api*
 
-**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
+**Dr. Chakshu**, an end-to-end AI-powered clinical decision support system designed to assist clinicians and patients in chest X-ray analysis by combining Computer Vision, Explainable AI, Retrieval-Augmented Generation (RAG), and Agentic AI into a single workflow.
 
 - Built a **multi-stage AI diagnostic pipeline** for chest X-rays using a fine-tuned DenseNet-121 backbone trained on **57K+ NIH CXR-14 images**, achieving a mean **AUC-ROC of 0.7735** across Cardiomegaly, Pleural Effusion, and Pneumothorax with patient-aware splits to eliminate data leakage.
 - Engineered an explainability layer via **Grad-CAM** exposed through a **FastAPI** endpoint that returns the highest-probability disease prediction alongside a Base64-encoded heatmap overlay, highlighting model attention regions on the denseblock4 convolutional layer.
