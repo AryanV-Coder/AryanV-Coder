@@ -61,7 +61,7 @@
 
 ---
 
-#### 📈 Stock Market Voice
+#### 📞 [Stock Market Voice](https://www.linkedin.com/posts/aryan-varshney-392446310_voiceai-conversationalai-aiengineering-ugcPost-7483139049252352001-BkjW/)
 
 *Python, Sarvam AI, Groq, Twilio, Silero VAD*
 
