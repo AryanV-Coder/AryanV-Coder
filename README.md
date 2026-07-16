@@ -46,6 +46,17 @@
 - Built a **multi-stage AI diagnostic pipeline** for chest X-rays using a fine-tuned DenseNet-121 backbone trained on **57K+ NIH CXR-14 images**, achieving a mean **AUC-ROC of 0.7735** across Cardiomegaly, Pleural Effusion, and Pneumothorax with patient-aware splits to eliminate data leakage.
 - Engineered an explainability layer via **Grad-CAM** exposed through a **FastAPI** endpoint that returns the highest-probability disease prediction alongside a Base64-encoded heatmap overlay, highlighting model attention regions on the denseblock4 convolutional layer.
 - Designed a **RAG-augmented report generation** module using **FAISS** as a local vector store with sentence-transformers embeddings and the **Groq API** as the LLM, grounding AI-drafted structured radiology reports in retrieved medical-guideline context for clinical accuracy.
+  
+---
+
+#### 📞 [Stock Market Voice](https://www.linkedin.com/posts/aryan-varshney-392446310_voiceai-conversationalai-aiengineering-ugcPost-7483139049252352001-BkjW/)
+
+*Python, Sarvam AI, Groq, Twilio, Silero VAD*
+
+**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversation handling.
+
+- Architected an end-to-end voice pipeline (Speech-to-Text → LLaMA 3.3-70B → Text-to-Speech) integrated with **Silero VAD** for speech detection, enabling **1–2s response latency** from speech input to synthesis
+- Leveraged Twilio for scalable call automation and broker APIs for dynamic retrieval of client-specific stock data, supporting multi-user calling and seamless callback-based query handling
 
 ---
 
@@ -58,17 +69,6 @@
 - Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalized conversations
 - Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within **~0.4 seconds**
 - Engineered concurrent execution using Python's `ProcessPoolExecutor` to run face recognition in an isolated process alongside live camera capture (OpenCV) and a Silero VAD audio thread, ensuring smooth real-time operation
-
----
-
-#### 📞 [Stock Market Voice](https://www.linkedin.com/posts/aryan-varshney-392446310_voiceai-conversationalai-aiengineering-ugcPost-7483139049252352001-BkjW/)
-
-*Python, Sarvam AI, Groq, Twilio, Silero VAD*
-
-**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversation handling.
-
-- Architected an end-to-end voice pipeline (Speech-to-Text → LLaMA 3.3-70B → Text-to-Speech) integrated with **Silero VAD** for speech detection, enabling **1–2s response latency** from speech input to synthesis
-- Leveraged Twilio for scalable call automation and broker APIs for dynamic retrieval of client-specific stock data, supporting multi-user calling and seamless callback-based query handling
 
 ---
 
