@@ -55,16 +55,16 @@
 
 **Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversation handling.
 
-- Built an AI Voice Agent that makes automated concurrent outbound phone calls to clients with
-personalised stock portfolio summaries; implemented a LangGraph ReAct agent with 4 live market data
-tools (live price, metrics, history, market status) and zero-hallucination architecture by injecting per-client
-trade data from Supabase into the LLM system prompt at runtime.
-- Developed an end-to-end real-time voice pipeline (Twilio Media Streams → Silero VAD → Sarvam
-Speech-to-Text → LLM → Sarvam Text-to-Speech → WebSocket) supporting multiple languages with streaming
-TTS playback that begins within the first audio chunk; engineered a barge-in interruption system detecting
-user speech in 300ms that instantly cancels in-flight audio and resets the conversation state.
-- Implemented robust multi-turn conversational memory using LangGraph InMemorySaver with per-call
-thread isolation, and designed LangGraph state pruning via RemoveMessage to recover gracefully from
+- Built an **AI Voice Agent** that makes **automated concurrent outbound phone calls** to clients with
+personalised stock portfolio summaries; implemented a **LangGraph ReAct agent** with **4 live market data
+tools** (live price, metrics, history, market status) and **zero-hallucination architecture** by injecting per-client
+trade data from **Supabase** into the LLM system prompt at runtime.
+- Developed an end-to-end **real-time voice pipeline** (Twilio Media Streams → Silero VAD → Sarvam
+Speech-to-Text → LLM → Sarvam Text-to-Speech → WebSocket) supporting **multiple languages** with streaming
+TTS playback that begins within the first audio chunk; engineered a **barge-in interruption system** detecting
+user speech in **300ms** that instantly cancels in-flight audio and resets the conversation state.
+- Implemented robust **multi-turn conversational memory** using LangGraph **InMemorySaver** with per-call
+thread isolation, and designed LangGraph state pruning via **RemoveMessage** to recover gracefully from
 mid-tool-execution interruptions, ensuring zero agent crashes across concurrent calls.
 
 ---
