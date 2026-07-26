@@ -17,7 +17,6 @@
 
 - 🎓 Computer Science student at **JIIT Noida** (2024–28)
 - 💻 I love building intelligent systems that **interact, automate, and improve lives**
-- 🔬 Exploring **AI agents, automation, FastAPI, Flutter**, and **AI APIs**
 - 🇮🇳 Mission-driven to use tech for **India's advancement in defense and wellness**
 - 🧪 Constantly experimenting with **AI, ML, automation, and hardware integration**
 
