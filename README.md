@@ -184,11 +184,11 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 <div align="center">
 
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=000080&icon_color=ff9933&text_color=000080&bg_color=ffffff" />
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&icon_color=138808&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=FF9933" alt="GitHub Stats">
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=000080&text_color=000080&bg_color=ffffff" />
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=138808" alt="Top Languages">
 </a>
 
 </div>
@@ -198,18 +198,18 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 ### 🔥 Contribution Streak
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
 </picture>
 
 </div>
 
 ### 📅 Contribution Activity
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
-  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
 </picture>
 
 </div>
