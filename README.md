@@ -24,27 +24,27 @@
 
 ### 🧩 Featured Projects
 
-#### 🚨 [Project Drishti — SwachhBharat](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-computervision-yolo-ugcPost-7476698512487817216-m1Ck/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 🚨 [Project Drishti — SwachhBharat](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-computervision-yolo-ugcPost-7476698512487817216-m1Ck/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNNvo8BUlNWWfI9Wt8DP6AnfFMni7f8X3A)
 
 *Python, YOLOv8, DeepFace (Facenet512), FAISS, MediaPipe, SQLite, SMTP, SciPy*
 
-**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches **e-challans** (penalty notices).
+**Project Drishti**, an end-to-end AI surveillance pipeline that detects littering in real-time using computer vision, identifies violators through facial recognition, and automatically dispatches digital e-challans to enforce civic accountability under the Swachh Bharat mission.
 
-- Engineered a **temporal state machine** that tracks person-garbage relationships over time (UNTRACKED → ATTACHED → DETACHING → MONITORING → LITTERING_CONFIRMED) to accurately infer littering behavior and reduce false positives
-- Integrated **YOLOv8 for real-time multi-object detection** (humans, garbage, dustbins), **custom centroid-based tracker** for temporal tracking, and **MediaPipe + DeepFace** for face isolation and identity matching
-- Built a high-speed facial recognition pipeline combining **FAISS vector indexing** (Facenet512 embeddings) with **SQLite lookups** to match violators against registered identities, enabling instant penalty dispatch
-- Implemented **automated e-challan generation** via SMTP, complete with violation evidence (timestamp, image, violator details, Rs. 500 fine notice) supporting **Swachh Bharat (Clean India)** initiative
+- Engineered a **temporal state machine** that tracks person-garbage relationships over time (UNTRACKED → ATTACHED → DETACHING → MONITORING → LITTERING_CONFIRMED) to accurately infer littering intent and drastically reduce false positives in crowded scenes.
+- Integrated **YOLOv8 for real-time multi-object detection** (humans, garbage, dustbins), **custom centroid-based tracker** for temporal tracking, and **MediaPipe + DeepFace** for face isolation and identity embedding generation.
+- Built a high-speed facial recognition pipeline combining **FAISS vector indexing** (Facenet512 embeddings) with **SQLite lookups** to match violators against registered identities, enabling instant violation attribution.
+- Implemented **automated e-challan generation** via SMTP, complete with violation evidence (timestamp, image, violator details, Rs. 500 fine notice) supporting **Swachh Bharat (Clean India)** initiatives at scale.
 
 ---
 
-#### 👨🏻‍⚕️ [Dr. Chakshu (Eyes) - Chest X-Ray Diagnosis Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_artificialintelligence-healthcareai-medicalai-ugcPost-7480538351691931648-mmCy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 👨🏻‍⚕️ [Dr. Chakshu (Eyes) - Chest X-Ray Diagnosis Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_artificialintelligence-healthcareai-medicalai-ugcPost-7480538351691042816-tVvH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNNvo8BUlNWWfI9Wt8DP6AnfFMni7f8X3A)
 *Python, PyTorch, DenseNet-121, Grad-CAM, FastAPI, FAISS, Groq Api*
 
-**Dr. Chakshu**, an end-to-end AI-powered clinical decision support system designed to assist clinicians and patients in chest X-ray analysis by combining Computer Vision, Explainable AI, Retrieval-Augmented Generation (RAG), and Agentic AI into a single workflow.
+**Dr. Chakshu**, an end-to-end AI-powered clinical decision support system designed to assist clinicians and patients in chest X-ray analysis by combining Computer Vision, Explainable AI, Retrieval-Augmented Generation, and structured report generation.
 
-- Built a **multi-stage AI diagnostic pipeline** for chest X-rays using a fine-tuned DenseNet-121 backbone trained on **57K+ NIH CXR-14 images**, achieving a mean **AUC-ROC of 0.7735** across Cardiomegaly, Pleural Effusion, and Pneumothorax with patient-aware splits to eliminate data leakage.
-- Engineered an explainability layer via **Grad-CAM** exposed through a **FastAPI** endpoint that returns the highest-probability disease prediction alongside a Base64-encoded heatmap overlay, highlighting model attention regions on the denseblock4 convolutional layer.
-- Designed a **RAG-augmented report generation** module using **FAISS** as a local vector store with sentence-transformers embeddings and the **Groq API** as the LLM, grounding AI-drafted structured radiology reports in retrieved medical-guideline context for clinical accuracy.
+- Built a **multi-stage AI diagnostic pipeline** for chest X-rays using a fine-tuned DenseNet-121 backbone trained on **57K+ NIH CXR-14 images**, achieving a mean **AUC-ROC of 0.7735** across Cardiomegaly, Infiltration, and No Finding classes.
+- Engineered an explainability layer via **Grad-CAM** exposed through a **FastAPI** endpoint that returns the highest-probability disease prediction alongside a Base64-encoded heatmap overlay, highlighting clinically relevant lung regions.
+- Designed a **RAG-augmented report generation** module using **FAISS** as a local vector store with sentence-transformers embeddings and the **Groq API** as the LLM, grounding AI-drafted structured radiology-style findings and recommendations.
   
 ---
 
@@ -52,7 +52,7 @@
 
 *Python, Sarvam AI, Groq, Twilio, Silero VAD*
 
-**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time conversation handling.
+**Stock Market Voice**, an AI-powered voice calling system for brokers that schedules and initiates automated calls to clients, delivering personalized daily stock purchase summaries with real-time market intelligence.
 
 - Built an **AI Voice Agent** that makes **automated concurrent outbound phone calls** to clients with
 personalised stock portfolio summaries; implemented a **LangGraph ReAct agent** with **4 live market data
@@ -74,21 +74,33 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 **Vayu**, an interactive face recognition bot that **recognizes faces** via FAISS embeddings and runs a **personalized, streaming voice conversation** pipeline (STT → LLM → TTS).
 
-- Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalized conversations
-- Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within **~0.4 seconds**
-- Engineered concurrent execution using Python's `ProcessPoolExecutor` to run face recognition in an isolated process alongside live camera capture (OpenCV) and a Silero VAD audio thread, ensuring smooth real-time operation
+- Developed a real-time AI booth assistant for a college fest (JIIT Converge'26) that identifies attendees via FAISS-based cosine-similarity search over Facenet512 face embeddings and delivers fully personalized welcome interactions in under 2 seconds.
+- Built an end-to-end voice pipeline (Sarvam AI Speech-to-Text → LLaMA 3.3-70B → Sarvam AI Text-to-Speech over WebSocket) with streaming audio playback that begins speaking within **~0.4 seconds**, creating fluid human-like dialogue.
+- Engineered concurrent execution using Python's `ProcessPoolExecutor` to run face recognition in an isolated process alongside live camera capture (OpenCV) and a Silero VAD audio thread, ensuring low-latency multimodal interaction stability.
 
 ---
 
-#### 📝 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
+#### 🔐 [JARVIS — Secret Key Extraction](https://github.com/AryanV-Coder/JARVIS-SecretKeyExtraction)
+
+*Python, FastAPI, Cryptography, Regex, Automation*
+
+**JARVIS — Secret Key Extraction**, an AI-assisted security automation utility focused on identifying, extracting, and structuring secret keys/tokens from unstructured sources for audit and incident-response workflows.
+
+- Built a parsing pipeline to detect high-risk credentials (API keys, tokens, secrets) from mixed-format inputs with pattern-based and context-aware extraction.
+- Added structured output formatting for quick triage and downstream automation integration in security checks.
+- Designed with a developer-first workflow to support rapid verification and cleanup during secure code reviews.
+
+---
+
+#### 📝 [Customer Recovery Automation Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_ai-automation-n8n-activity-7466010657302269953-WXOl?utm_source=share&utm_medium=member_desktop)
 
 *n8n, Twilio, Sarvam AI, Gemini, Python*
 
 **Customer Recovery Automation Tool**, an AI-powered customer recovery workflow that transforms vague negative reviews into actionable business insights through intelligent voice conversations.
 
-- Built an intelligent review analysis pipeline that detects negative and unclear customer feedback, then automatically triggers personalized AI voice calls to gather detailed feedback through natural, human-like conversations
-- Integrated a multi-stack voice system using **Twilio for calling**, **Sarvam AI for STT & TTS**, and **Gemini AI for review analysis**, orchestrated seamlessly through **n8n workflows**
-- Engineered an AI-driven escalation logic system where the workflow autonomously decides when to escalate for human intervention, transforming passive feedback analysis into proactive customer recovery actions
+- Built an intelligent review analysis pipeline that detects negative and unclear customer feedback, then automatically triggers personalized AI voice calls to gather detailed feedback through natural dialogue.
+- Integrated a multi-stack voice system using **Twilio for calling**, **Sarvam AI for STT & TTS**, and **Gemini AI for review analysis**, orchestrated seamlessly through **n8n workflows**.
+- Engineered an AI-driven escalation logic system where the workflow autonomously decides when to escalate for human intervention, transforming passive feedback analysis into proactive customer recovery operations.
 
 ---
 
@@ -96,10 +108,10 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 *Python, FastAPI, Scikit-learn, Linear Regression*
 
-**Sleep Debt Predictor**, a web-based ML system that estimates user sleep debt by analyzing facial fatigue indicators (eye redness, dark circles, yawn frequency) captured via a real-time browser video feed.
+**Sleep Debt Predictor**, a web-based ML system that estimates user sleep debt by analyzing facial fatigue indicators (eye redness, dark circles, yawn frequency) captured via a real-time browser video stream and converting them into personalized recovery recommendations.
 
-- Trained a Scikit-learn Linear Regression model on a self-collected dataset, achieving **R² 0.87**, **MAE 0.80 hours**, and **RMSE 1.02** on the test split
-- Built an end-to-end pipeline integrating a FastAPI backend with Google Gemini API for feature extraction, and implemented Web Speech API for AI-generated personalized voice feedback
+- Trained a Scikit-learn Linear Regression model on a self-collected dataset, achieving **R² 0.87**, **MAE 0.80 hours**, and **RMSE 1.02** on the test split.
+- Built an end-to-end pipeline integrating a FastAPI backend with Google Gemini API for feature extraction, and implemented Web Speech API for AI-generated personalized voice feedback.
 
 ---
 
@@ -107,10 +119,10 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 *Flutter, FastAPI, Dart, Python, Gemini, PostgreSQL*
 
-**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing meetings.
+**Spy AI**, an AI-powered full-stack mobile app using **Flutter** (Dart) frontend and **FastAPI** (Python) backend that turns your phone into a searchable, lifelong memory by recording and indexing your daily conversations.
 
-- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated a **Gemini 2.5 Flash-powered** chatbot to surface insights instantly
-- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and unlock institutional knowledge
+- Implemented a background recorder with real-time audio capture, transcription pipeline, structured database storage and **full-text search**; integrated a **Gemini 2.5 Flash-powered** chatbot that answers memory queries using contextual retrieval.
+- Delivered end-to-end production features including secure storage, privacy controls, meeting-level metadata, and cross-platform deployment—empowering users to recall details, verify claims, and act on past discussions instantly.
 
 ---
 
@@ -120,8 +132,8 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 **AI Calling**, a full-stack voice-first application with an **HTML** frontend and **Flask** backend that enables natural, real-time phone conversations with an **AI** assistant.
 
-- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over phone
-- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling and scalable backend services
+- Integrated telephony providers and built real-time **speech-to-text** and **text-to-speech** pipelines, plus automated call initiation to allow users to talk directly to an LLM-driven agent over voice.
+- Implemented an **emergency auto-call** feature to send urgent voice messages when users cannot place calls manually, and delivered secure call handling and scalable backend services.
 
 ---
 
@@ -129,10 +141,10 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 *FastAPI, Gemini, Html, CSS, JavaScript*
 
-**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel**.
+**Flavor Match**, a full-stack family food recommendation web app using **HTML/CSS** and **JavaScript** on the frontend with a **FastAPI + PostgreSQL** backend; deployed a live demo on **Vercel** with responsive UX.
 
-- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs
-- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions
+- Designed and implemented a normalized relational schema (Family → Member → Food) applying **primary/foreign keys, UNIQUE/NOT NULL** constraints and cascade operations, with timestamped logs.
+- Implemented streamlined family/member registration and daily food-logging flows, plus an **SQL-driven recommendation pipeline** (rule-based / lightweight AI) to deliver personalized meal suggestions.
 
 ---
 
@@ -172,11 +184,11 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 <div align="center">
 
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&icon_color=138808&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=FF9933" alt="GitHub Stats">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=000080&icon_color=ff9933&text_color=000080&bg_color=ffffff" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=138808" alt="Top Languages">
+  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=000080&text_color=000080&bg_color=ffffff" />
 </a>
 
 </div>
@@ -186,18 +198,18 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 ### 🔥 Contribution Streak
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=138808&sideLabels=138808&dates=138808&currStreakNum=FF6600&sideNums=FF6600&background=0%2Cfff8f0%2Cffffff%2Cf0fff4&border=FF9933">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AryanV-Coder&theme=transparent&hide_border=false&border_radius=5&date_format=M%20j%5B%2C%20Y%5D&ring=FF9933&fire=FF9933&currStreakLabel=000080&dates=000080" />
 </picture>
 
 </div>
 
 ### 📅 Contribution Activity
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
-  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
+  <img alt="Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false" />
 </picture>
 
 </div>
@@ -218,5 +230,5 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=ffffff">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer&text=Code+for+the+Nation.+Code+for+the+Future.+🇮🇳&fontSize=20&fontColor=ffffff&animation=twinkling" />
 </div>
