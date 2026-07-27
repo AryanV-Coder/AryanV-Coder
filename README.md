@@ -80,15 +80,15 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 ---
 
-#### 🔐 [JARVIS — Secret Key Extraction](https://github.com/AryanV-Coder/JARVIS-SecretKeyExtraction)
+#### 🤖 [JARVIS — Secret Key Extraction Game](https://github.com/AryanV-Coder/JARVIS-SecretKeyExtraction)
 
-*Python, FastAPI, Cryptography, Regex, Automation*
+*Python, OpenCV, Sarvam AI (STT/TTS), Groq Qwen (Vision), Silero VAD, PyAudio*
 
-**JARVIS — Secret Key Extraction**, an AI-assisted security automation utility focused on identifying, extracting, and structuring secret keys/tokens from unstructured sources for audit and incident-response workflows.
+**JARVIS — Secret Key Extraction Game** is a real-time AI voice conversation bot with live camera input, built as a fun induction game where players try to make JARVIS reveal a hidden secret key.
 
-- Built a parsing pipeline to detect high-risk credentials (API keys, tokens, secrets) from mixed-format inputs with pattern-based and context-aware extraction.
-- Added structured output formatting for quick triage and downstream automation integration in security checks.
-- Designed with a developer-first workflow to support rapid verification and cleanup during secure code reviews.
+- Built a low-latency multimodal pipeline: webcam feed + voice interaction using **Silero VAD → Sarvam STT → Groq Qwen Vision → Sarvam streaming TTS**.
+- Implemented **dynamic gameplay logic** with randomly selected secret keys (e.g., Bunk, Maggi, Proxy, Attendance) and an aggressive guard persona that resists prompt attempts.
+- Added **language matching** (English/Hindi/Hinglish), special backdoor override phrases, and auto-shutdown flow once the player successfully extracts the secret key.
 
 ---
 
