@@ -80,15 +80,25 @@ mid-tool-execution interruptions, ensuring zero agent crashes across concurrent 
 
 ---
 
-#### 🤖 [JARVIS — Secret Key Extraction Game](https://github.com/AryanV-Coder/JARVIS-SecretKeyExtraction)
+#### 🤖 [JARVIS — Secret Key Extraction](https://github.com/AryanV-Coder/JARVIS-SecretKeyExtraction)
 
-*Python, OpenCV, Sarvam AI (STT/TTS), Groq Qwen (Vision), Silero VAD, PyAudio*
+*Python, OpenCV, Silero VAD, PyAudio, Sarvam AI (STT/TTS), Groq Qwen (Vision)*
 
-**JARVIS — Secret Key Extraction Game** is a real-time AI voice conversation bot with live camera input, built as a fun induction game where players try to make JARVIS reveal a hidden secret key.
+**JARVIS — Secret Key Extraction** is a fun, high-energy AI game built for **JIIT fresher induction** interactions.  
+A fresher stands in front of the camera and talks to JARVIS, whose job is to guard a hidden secret key while roasting the player in real time.
 
-- Built a low-latency multimodal pipeline: webcam feed + voice interaction using **Silero VAD → Sarvam STT → Groq Qwen Vision → Sarvam streaming TTS**.
-- Implemented **dynamic gameplay logic** with randomly selected secret keys (e.g., Bunk, Maggi, Proxy, Attendance) and an aggressive guard persona that resists prompt attempts.
-- Added **language matching** (English/Hindi/Hinglish), special backdoor override phrases, and auto-shutdown flow once the player successfully extracts the secret key.
+**Game Rules:**
+- At the start of every round, JARVIS picks a random secret key (e.g., **Bunk, Maggi, Proxy, Attendance**).
+- The player must convince/trick JARVIS to reveal that key through conversation.
+- JARVIS stays aggressive and refuses direct attempts, making prompt strategy the core challenge.
+- If the key is extracted, JARVIS declares the player the winner and the session ends.
+
+**Technical Highlights:**
+- Built a **real-time multimodal pipeline** combining live webcam + voice interaction.
+- Audio stack: **Silero VAD → Sarvam STT → Groq Qwen Vision → Sarvam streaming TTS** for low-latency, natural turn-taking.
+- Vision support captures the best webcam frame during speech, enabling contextual and appearance-aware responses.
+- Added **language adaptation** for English/Hindi/Hinglish and dynamic TTS voice behavior.
+- Implemented gameplay-state logic for robust win detection and automatic shutdown on successful key extraction.
 
 ---
 
