@@ -37,7 +37,7 @@
 
 ---
 
-#### 👨🏻‍⚕️ [Dr. Chakshu (Eyes) - Chest X-Ray Diagnosis Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_artificialintelligence-healthcareai-medicalai-ugcPost-7480538351691042816-tVvH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNNvo8BUlNWWfI9Wt8DP6AnfFMni7f8X3A)
+#### 👨🏻‍⚕️ [Dr. Chakshu (Eyes) - Chest X-Ray Diagnosis Tool](https://www.linkedin.com/posts/aryan-varshney-392446310_artificialintelligence-healthcareai-medicalai-activity-7480538520739315712-WK_q?utm_source=share&utm_medium=member_android&rcm=ACoAAE8WXp4BgI2VsM4AocmLbTP2t3RwvE585ao)
 *Python, PyTorch, DenseNet-121, Grad-CAM, FastAPI, FAISS, Groq Api*
 
 **Dr. Chakshu**, an end-to-end AI-powered clinical decision support system designed to assist clinicians and patients in chest X-ray analysis by combining Computer Vision, Explainable AI, Retrieval-Augmented Generation, and structured report generation.
