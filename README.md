@@ -194,11 +194,11 @@ A fresher stands in front of the camera and talks to JARVIS, whose job is to gua
 <div align="center">
 
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&icon_color=138808&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=FF9933" alt="GitHub Stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=AryanV-Coder&show_icons=true&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&icon_color=138808&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=FF9933" alt="GitHub Stats">
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/AryanV-Coder">
-  <img height=200 align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=138808" alt="Top Languages">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanV-Coder&layout=compact&include_all_commits=true&count_private=true&theme=react&title_color=FF9933&text_color=138808&bg_color=0,fff8f0,ffffff,f0fff4&border_color=138808" alt="Top Languages">
 </a>
 
 </div>
