@@ -215,6 +215,8 @@ A fresher stands in front of the camera and talks to JARVIS, whose job is to gua
 
 </div>
 
+<div align="center">
+
 ### 📅 Contribution Activity
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AryanV-Coder&bg_color=ffffff&color=000080&line=ff9933&point=138808&area=true&hide_border=false&custom_title=Contribution%20Graph">
